@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hat {
+    background-color: #007765;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#empty {
+    height: 65px;
+    width: 100%;
+    margin: 0;
+}
+
+.hat a {
+    color: white;
+    text-decoration: none;
+}
+
+.hat div {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+}
+
+.hero1 {
+    background-image: url("images/image1.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero1 > .content {
+    box-sizing: border-box;
+    max-width: 1219px;
+    margin: 0 auto;
+    padding: 160px 55px;
+
+    font-family: "Roboto",sans-serif;
+    text-align: center;
+    font-size: 72px;
+    color: white;
+}
+
+.block1 {
+    background-color: #EEEEEE;
+}
+
+.block1 > .content {
+    padding: 50px 0;
+    box-sizing: border-box;
+    max-width: 1219px;
+    margin: 0 auto;
+}
+
+.block1 > .content > h2 {
+    padding-bottom: 10px;
+    line-height: 75px;
+    font-size: 60px;
+    font-family: "Roboto", sans-serif;
+    color: #007765;
+    text-align: center;
+}
+
+.block1 > .content > p{
+    font-family: "Roboto",sans-serif;
+    font-size: 32px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hero2 {
+    background-image: url("images/image2.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero2 > .content {
+    box-sizing: border-box;
+    max-width: 1219px;
+    margin: 0 auto;
+    padding: 160px 55px;
+
+    line-height: 57px;
+    font-family: "Roboto",sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 48px;
+    color: white;
+}
+
+.block2 {
+    background-color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+}
+
+.block2 > h2 {
+    padding: 50px 0;
+    line-height: 75px;
+    font-size: 60px;
+    color: #007765;
+    text-align: center;
+}
+
+.block2 > .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    max-width: 1219px;
+    margin: 0 auto;
+
+    font-size: 32px;
+}
+
+.team {
+    background-color: #EEEEEE;
+    font-family: "Roboto", sans-serif;
+}
+
+.team > h2 {
+    padding: 50px 0;
+    line-height: 75px;
+    font-size: 60px;
+    color: #007765;
+    text-align: center;
+}
+
+.team > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-evenly;
+
+    padding: 50px 20px;
+    box-sizing: border-box;
+    max-width: 1219px;
+    margin: 0 auto;
+}
+
+.teammate {
+    padding: 10px;
+}
+
+.teammate > img {
+    display: block;
+    margin: 0 auto;
+}
+
+.name {
+    font-size: 24px;
+    color: #007765;
+    text-align: center;
+}
+
+.role {
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+}
+
+.end {
+    background-color: #333333;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.end > div {
+    padding: 56px 0;
+    box-sizing: border-box;
+    max-width: 540px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
